@@ -1,0 +1,191 @@
+{% extends 'base.html' %}
+{% block head %}
+
+<title>Greenvalley Attendassnce Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+
+{% endblock %}
+
+{% block body %}
+
+
+  <ul>
+    <li><a href="#"><img src="assets/logo-white.1e8dd186 (1).png" alt="Dashboard"></a></li>
+    <li><a href="addthing.html">Add new entry</a></li>
+    <li><a href="#">Veiw previous entry</a></li>
+    <li style="float:right"><a class="active" href="#">Teacher Name</a></li>
+
+  </ul>
+  <div class="button">
+  <button id="download">Download this weeks data</button> 
+  </div>
+
+  <div class="Student_name">
+    <form>  
+      <label> Select Student to veiw </label>  
+      
+      <select>  
+      <option value = "Loren"> Loren
+      </option>  
+      <option value = "Ipsum"> Ipsum   
+      </option>  
+      <option value = "dolor"> dolor
+      </option>  
+      <option value = "sit"> sit  
+      </option>  
+      </select>  
+      </form>  
+    </div>
+
+
+    <div class="Select_date">
+      <form>  
+        <label> Select Date to veiw </label>  
+        <select>  
+        <option value = "Loren"> Jan 1
+        </option>  
+        <option value = "Ipsum"> Jan 2
+        </option>  
+        <option value = "dolor"> Jan 3
+        </option>  
+        <option value = "sit"> Jan 4
+        </select>  
+        </form>  
+      </div>
+
+      <div class="Days_attended_total_annual">
+
+        <h1>Total Days attended</h1>  
+
+        <h2>228</h2>
+
+      </div>  
+
+      <div class="Out_of_Days_attended">
+
+        <h1>Out of</h1>  
+
+        <h2>300</h2>
+
+      </div>
+
+      
+
+  <div class="Date_thingy">
+
+    <img src="static/assets/grid_thingy.png"
+  
+  </div>
+
+        <div class="Leave_Letter_1">
+
+          <h3>Reason of Absence Before Abscence (If any) : </h3>  
+
+          <p>Dear teacher, I will not come to school tommorow becouse I have to see some relative I have never met before.</p>
+
+        </div> 
+
+        <div class="Leave_Letter_2">
+
+          <h3>Reason of Absence after Abscence (If any) : </h3>  
+
+          <p>Dear teacher, I didnt come to school today because I attempted to wear socks that I have not washed in 8 years, My feat Itch so Bad I cannot walk.</p>
+        </div>
+
+ 
+
+
+{% endblock %}
+
+
+<!--
+  <title>Greenvalley Attendance Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+</head>
+
+<body>
+
+  
+  <ul>
+    <li><a href="#"><img src="assets/logo-white.1e8dd186 (1).png" alt="Dashboard"></a></li>
+    <li><a href="addthing.html">Add new entry</a></li>
+    <li><a href="#">Veiw previous entry</a></li>
+    <li style="float:right"><a class="active" href="#">Teacher Name</a></li>
+
+  </ul>
+
+  <div class="Student_name">
+    <form>  
+      <label> Select Student to veiw </label>  
+      
+      <select>  
+      <option value = "Loren"> Loren
+      </option>  
+      <option value = "Ipsum"> Ipsum   
+      </option>  
+      <option value = "dolor"> dolor
+      </option>  
+      <option value = "sit"> sit  
+      </option>  
+      </select>  
+      </form>  
+    </div>
+
+
+    <div class="Select_date">
+      <form>  
+        <label> Select Date to veiw </label>  
+        <select>  
+        <option value = "Loren"> Jan 1
+        </option>  
+        <option value = "Ipsum"> Jan 2
+        </option>  
+        <option value = "dolor"> Jan 3
+        </option>  
+        <option value = "sit"> Jan 4
+        </select>  
+        </form>  
+      </div>
+
+      <div class="Days_attended_total_annual">
+
+          <h1>Total Days attended</h1>  
+
+          <h2>228</h2>
+
+        </div>      
+
+        <div class="Out_of_Days_attended">
+
+          <h1>Out of</h1>  
+
+          <h2>300</h2>
+
+        </div>  
+
+        <div class="Leave_Letter_1">
+
+          <h3>Reason of Absence Before Abscence (If any) : </h3>  
+
+          <p>Dear teacher, I will not come to school tommorow becouse I have to see some relative I have never met before.</p>
+
+        </div> 
+
+        <div class="Leave_Letter_2">
+
+          <h3>Reason of Absence after Abscence (If any) : </h3>  
+
+          <p>Dear teacher, I didnt come to school today because I attempted to wear socks that I have not washed in 8 years, My feat Itch so Bad I cannot walk.</p>
+        </div>
+
+        <button id="download">Download this weeks data</button>  
+
+        <div class="Date_thingy">
+
+          <img src="/assets/Untitled.png"
+          width="525"
+          height="200">
+
+        </div>
+  </body> -->

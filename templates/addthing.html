@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block head %}
+<title>Register todays Attendance !!!</title>
+<link rel="stylesheet" href="styles.css">
+{% endblock %}
+{% block body %}
+    <link rel="stylesheet" href="styles.css">
+    <ul>
+      <li><a href="index.html"><img src="assets/logo-white.1e8dd186 (1).png" alt="Dashboard"></a></li>
+      <li><a href="addthing.html">Add new entry</a></li>
+      <li><a href="#">Veiw previous entry</a></li>
+      <li style="float:right"><a class="active" href="#"></a></li>
+    </li>
+    </ul>
+    
+      <h2>Add todays data</h2>
+      <h5>checkmark everyone who is present today</h5>
+      <div class="container">
+    <form action="#">
+      <input type="checkbox" id="nm1" name="nm1" value="present">
+      <label for="nm1"> The real Nandan </label><br>
+      <input type="checkbox" id="nm2" name="nm2" value="present">
+      <label for="nm2"> Just Nandan </label><br>
+      <input type="checkbox" id="nm3" name="nm3" value="present">
+      <label for="nm3"> Fake Nandan </label><br>
+      <input type = "submit" value = "submit" />
+      </form>
+    </div>  
+    {{did_name_1_come}}
+    {{did_name_2_come}}
+    {{did_name_3_come}}
+    {% endblock %}
